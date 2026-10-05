@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "title": "Fake news classification baseline",
+  "runtime_verified_for_publication": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "README.md",
+      "sha256": "b7ecefe59f1ae1a114f401d042bf4fe76cea1ad7e909efbb0dd3416d577f50a0",
+      "bytes": 832
+    },
+    {
+      "path": "task_3.ipynb",
+      "sha256": "8a1b0205cfa826880d2bf1620968dc6a90831a5bf3bd53069d0687ccf84584b9",
+      "bytes": 5612
+    }
+  ]
+}
