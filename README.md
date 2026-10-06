@@ -1,10 +1,13 @@
-# Fake news classification baseline
+# Fake news corpus classification
 
-Learning notebooks. Saved outputs removed; evaluation and successful rerun are not verified by publication.
+Headline and content preprocessing, training-only TF-IDF, SVM, accuracy and F1. This classifies this corpus; it does not establish whether a real-world statement is true.
 
+The earlier notebook was repaired into a reusable module plus the same setup → experiment → results notebook flow. Original source files remain on the laptop. See `VERIFICATION.json` for completed checks and `metrics.json` for fresh results when available.
 
-## Publication copy
+```sh
+python -m venv .venv
+python -m pip install -r requirements.txt
+python classify.py --fake Fake.csv --true True.csv --output metrics.json
+```
 
-Published 5 October 2026 at the owner's request. This is a sanitized source snapshot. Original local Git history and original files remain unchanged. Pictures, videos, binary archives, private/runtime data, dependency folders and credentials are excluded. Notebook outputs, attachments and incidental metadata are removed. Documents are text-only extracts. Media references and redacted configuration may need replacements before running. No claim of successful rerun, production readiness, sole authorship or independent validation is implied.
-
-Learning notebooks. Saved outputs removed; evaluation and successful rerun are not verified by publication.
+Supply your dataset files at the indicated paths. Raw corpora, model binaries, credentials, pictures and videos are excluded. Pretrained model downloads happen locally. Evaluation sizes and dataset limitations are explicit in the results; small runs are functional evidence, not a broad benchmark.

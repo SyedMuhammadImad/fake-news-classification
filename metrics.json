@@ -1,0 +1,48 @@
+{
+  "dataset": "Supplied Fake/True news corpus",
+  "seed": 42,
+  "train_rows": 31060,
+  "test_rows": 7766,
+  "uses_title_and_content": true,
+  "train_test_text_overlap": 0,
+  "accuracy": 0.993561679114087,
+  "macro_f1": 0.9935198421665188,
+  "classification_report": {
+    "0": {
+      "precision": 0.9955081414935429,
+      "recall": 0.9905027932960894,
+      "f1-score": 0.9929991598991879,
+      "support": 3580.0
+    },
+    "1": {
+      "precision": 0.9919124643196955,
+      "recall": 0.9961777353081701,
+      "f1-score": 0.9940405244338498,
+      "support": 4186.0
+    },
+    "accuracy": 0.993561679114087,
+    "macro avg": {
+      "precision": 0.9937103029066192,
+      "recall": 0.9933402643021297,
+      "f1-score": 0.9935198421665188,
+      "support": 7766.0
+    },
+    "weighted avg": {
+      "precision": 0.9935700131585281,
+      "recall": 0.993561679114087,
+      "f1-score": 0.993560472279061,
+      "support": 7766.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3546,
+      34
+    ],
+    [
+      16,
+      4170
+    ]
+  ],
+  "limitation": "Random split within one collected corpus; source and writing-style shortcuts remain possible. Not a truth verification system."
+}

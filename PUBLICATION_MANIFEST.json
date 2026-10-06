@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-07",
   "title": "Fake news classification baseline",
-  "runtime_verified_for_publication": false,
+  "completion_gate_passed": true,
   "files": [
     {
       "path": ".gitignore",
@@ -9,14 +9,34 @@
       "bytes": 421
     },
     {
+      "path": "classify.py",
+      "sha256": "e2c4720f917ef5ad196c5e0057b120208c36ca40f8a8b50a7571cee44b192c84",
+      "bytes": 2600
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "631769bc87194ded114f8ce95913fc80c3bebecaeb7417d1bfd79c201541d2c9",
+      "bytes": 1234
+    },
+    {
       "path": "README.md",
-      "sha256": "b7ecefe59f1ae1a114f401d042bf4fe76cea1ad7e909efbb0dd3416d577f50a0",
-      "bytes": 832
+      "sha256": "82a04060e3fcd5d7a66d6a3a9872b87979dcba123e3b80d778f759ac140c80e4",
+      "bytes": 927
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "7d6fb71d95a969304a66b1e5bbce375804a5f13031230f555ccbdf1dcdc032fe",
+      "bytes": 50
     },
     {
       "path": "task_3.ipynb",
-      "sha256": "8a1b0205cfa826880d2bf1620968dc6a90831a5bf3bd53069d0687ccf84584b9",
-      "bytes": 5612
+      "sha256": "c8c5946821a2465d4853f01cdfa880fc3499c9e0eac062d82b226b773a8ce1f3",
+      "bytes": 2517
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "bdf3c772a22f8f3c1a925eb8d0491511d398970d29d5b84104e2c57bb74f1a80",
+      "bytes": 733
     }
   ]
 }
