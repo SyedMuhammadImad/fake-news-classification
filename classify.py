@@ -1,4 +1,4 @@
-"""Academic corpus classification using both headline and content."""
+"""experimental corpus classification using both headline and content."""
 import argparse,json,re
 from pathlib import Path
 import pandas as pd

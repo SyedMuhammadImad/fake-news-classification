@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "project": "fake-news-classification",
-  "completion_scope": "academic project or finished document; not a production certification",
+  "completion_scope": "experimental project or finished document; not a production certification",
   "checks": [
     {
       "name": "Real supplied dataset, full CLI execution",
@@ -17,7 +17,7 @@
     }
   ],
   "limitations": [
-    "Academic dataset results; generalization to new sources is not established.",
+    "experimental dataset results; generalization to new sources is not established.",
     "Random split within one collected corpus; source and writing-style shortcuts remain possible. Not a truth verification system."
   ]
 }
